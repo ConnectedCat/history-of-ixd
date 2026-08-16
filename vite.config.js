@@ -24,6 +24,7 @@ function markdownToHtmlPlugin() {
 }
 
 export default defineConfig({
+  base: '/history-of-ixd/',
   plugins: [
     tailwindcss(),
     markdownToHtmlPlugin(),
