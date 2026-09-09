@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1: Introduction
 
 This chapter content is loaded from a dedicated markdown file.
 

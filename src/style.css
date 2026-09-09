@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+ul {
+    padding-left: 1.5rem;
+    list-style: circle;
+}
+
+main{
+    a {
+        background-color: #fef3c7;
+    }
+
+    h2 {
+        @apply text-2xl font-semibold text-gray-900;
+    }
+
+    h3 {
+        @apply text-xl font-semibold text-gray-900;
+    }
+
+    h4 {
+        @apply text-lg font-semibold text-gray-900;
+    }
+}

@@ -10,8 +10,8 @@ const pageKey = document.body.dataset.page || 'home'
 
 const pageTitles = {
   home: 'History of Interaction Design',
-  'chapter-1': 'Chapter 1',
-  'chapter-2': 'Chapter 2',
+  'chapter-1': 'Chapter 1: Introduction',
+  'chapter-2': 'Chapter 2: Interaction Design Before Computers',
   'chapter-3': 'Chapter 3',
   bibliography: 'Bibliography'
 }
@@ -65,7 +65,6 @@ app.innerHTML = `
       <div class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-6 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 class="text-3xl font-bold text-gray-900">${pageTitles[pageKey] || 'Page'}</h1>
-          <p class="mt-1 text-gray-500">Structured multi-page scaffold</p>
         </div>
         <nav class="flex flex-wrap gap-4 text-sm">${navMarkup}</nav>
       </div>
@@ -73,7 +72,6 @@ app.innerHTML = `
 
     <main class="mx-auto max-w-5xl px-4 py-10">
       <section class="rounded-2xl bg-white p-8 shadow-sm">
-        <h2 class="text-2xl font-semibold text-gray-900">${pageTitles[pageKey] || 'Page'}</h2>
         ${contentMarkup}
       </section>
     </main>
