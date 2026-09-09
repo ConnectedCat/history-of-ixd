@@ -7,6 +7,7 @@ import bibliographyContent from '../content/bibliography.md'
 
 const app = document.querySelector('#app')
 const pageKey = document.body.dataset.page || 'home'
+const basePath = import.meta.env.BASE_URL;
 
 const pageTitles = {
   home: 'History of Interaction Design',
@@ -25,14 +26,14 @@ const pageContentMap = {
 }
 
 const directLinks = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/bibliography.html', key: 'bibliography', label: 'Bibliography' }
+  { href: basePath+'/', key: 'home', label: 'Home' },
+  { href: basePath+'/bibliography.html', key: 'bibliography', label: 'Bibliography' }
 ]
 
 const chapterLinks = [
-  { href: '/chapter-1.html', key: 'chapter-1', label: 'Chapter 1' },
-  { href: '/chapter-2.html', key: 'chapter-2', label: 'Chapter 2' },
-  { href: '/chapter-3.html', key: 'chapter-3', label: 'Chapter 3' }
+  { href: basePath+'/chapter-1.html', key: 'chapter-1', label: 'Chapter 1' },
+  { href: basePath+'/chapter-2.html', key: 'chapter-2', label: 'Chapter 2' },
+  { href: basePath+'/chapter-3.html', key: 'chapter-3', label: 'Chapter 3' }
 ]
 
 const linkMarkup = (link) => {
