@@ -26,14 +26,14 @@ const pageContentMap = {
 }
 
 const directLinks = [
-  { href: basePath+'/', key: 'home', label: 'Home' },
-  { href: basePath+'/bibliography.html', key: 'bibliography', label: 'Bibliography' }
+  { href: basePath, key: 'home', label: 'Home' },
+  { href: basePath+'bibliography.html', key: 'bibliography', label: 'Bibliography' }
 ]
 
 const chapterLinks = [
-  { href: basePath+'/chapter-1.html', key: 'chapter-1', label: 'Chapter 1' },
-  { href: basePath+'/chapter-2.html', key: 'chapter-2', label: 'Chapter 2' },
-  { href: basePath+'/chapter-3.html', key: 'chapter-3', label: 'Chapter 3' }
+  { href: basePath+'chapter-1.html', key: 'chapter-1', label: 'Chapter 1' },
+  { href: basePath+'chapter-2.html', key: 'chapter-2', label: 'Chapter 2' },
+  { href: basePath+'chapter-3.html', key: 'chapter-3', label: 'Chapter 3' }
 ]
 
 const linkMarkup = (link) => {
