@@ -25,11 +25,11 @@ Numeracy proliferated along with the development of literacy. Early societies ad
 
 In connection with the 60-base system an ingenious finger counting system was devised where one hand's phalanges (excluding the thumb) provided the base numbers and the other hand's fingers and thumb were used as multipliers.
 
-![An example of hand couting in sexagesimal system](media/ch2-palm.jpg)
+![An example of hand couting in sexagesimal system](./assets/ch2-palm.jpg)
 _An example of hand couting in sexagesimal system_
 
 Hand-counting systems present a unique example of a use of a human body as a technolgy, and self-referrential interface loop that allowed them to develop into systems of remarkable speed and accuracy, like Korean [Chisanbop](https://en.wikipedia.org/wiki/Chisanbop). Despite the speed and convenience of the internal representation of calculations the expernal systems allow us to outsource our memory - the ability that became fundamental to coping with the increasing cognitive load of information processing. Follow the early pre-historic use of [tally bones](https://en.wikipedia.org/wiki/Ishango_bone) an abacus was first inroduced in ancient Sumer and then then widely adopted across the ancient world.
-![Roman Abacus from St. Martin-de-Corléans Cemetery, Aosta, Italy. Aosta Archeological Museum, 1st century AD. Photo credit Marc Cartwright.](media/Aosta-Abacus-b.jpg)
+![Roman Abacus from St. Martin-de-Corléans Cemetery, Aosta, Italy. Aosta Archeological Museum, 1st century AD. Photo credit Marc Cartwright.](./assets/Aosta-Abacus-b.jpg)
 _Roman Abacus from St. Martin-de-Corléans Cemetery, Aosta, Italy. Aosta Archeological Museum, 1st century AD. Photo credit Marc Cartwright. www.ancient.eu._
 
 ### Information devices in Mesoamerica

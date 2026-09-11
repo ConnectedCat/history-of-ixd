@@ -17,3 +17,6 @@
 - [Dozenapentic (60) number system](http://www.gregapodaca.com/numerography/files/020.html)
 - [Ifrah, G. 2001. The Universal History of Computing: From the Abacus to the Quantum Computer. John Wiley & Sons, Inc, New York, NY](https://archive.org/details/unset0000unse_w3q2/page/n3/mode/2up)
 - [History of Abacus and Ancient Computing](https://kartsci.org/kocomu/computer-history/history-abacus-ancient-computing/)
+
+#### Interfaces and Interactions
+- [Marmaras, N., Poulakakis, G., Papakostopoulos, V., 1999, Ergonomic design in ancient Greece, Applied Ergonomics Volume 30, Issue 4](https://www.academia.edu/34119158/Ergonomic_design_in_ancient_Greece)
