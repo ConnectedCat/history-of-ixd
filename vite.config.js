@@ -29,15 +29,12 @@ function markdownToHtmlPlugin(base) {
   }
 }
 
-export default defineConfig(({ command }) => {
-  const base = command === 'serve' ? '/' : '/history-of-ixd/'
-
-  return {
-    base,
+export default defineConfig({
+  base: '/history-of-ixd/',
     publicDir: resolve(__dirname, 'public'),
     plugins: [
       tailwindcss(),
-      markdownToHtmlPlugin(base),
+      markdownToHtmlPlugin('/history-of-ixd/'),
     ],
     resolve: {
       alias: {
@@ -55,5 +52,4 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-  }
 })
