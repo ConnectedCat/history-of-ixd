@@ -1,5 +1,2 @@
-# Home
-
-This page is now sourced from a markdown file.
-
-The content is rendered into the shared page layout through the Vite markdown pipeline.
+# History of Interaction Design
+This is a personal project I am undertaking to create an online book covering the historical developments in interaction design. The book's content covers the intersection of several more established topics of historical investigation: computation, tool design and development, the history of science and technology, and the social and psychological effects of technological developments. The goal is to bring the focus to this particular intersection through the lense of a design discipline.
