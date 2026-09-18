@@ -29,3 +29,4 @@
 
 #### Mechnical calculators
 - [Computer Timeline](http://www.computer-timeline.com/)
+- [Georg Trogemann, Alexander Nitussov, Wolfgang Ernst, 2001, ARIFMOMETR: An Archaeology of Computing in Russia (excerpt from book)](https://www.researchgate.net/publication/259310459_Computing_in_Russia_-_The_History_of_Computer_Devices_and_Information_Technology_revealed)
