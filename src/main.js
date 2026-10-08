@@ -3,6 +3,17 @@ import homeContent from '../content/home.md'
 import chapter1Content from '../content/chapter-1.md'
 import chapter2Content from '../content/chapter-2.md'
 import chapter3Content from '../content/chapter-3.md'
+import chapter4Content from '../content/chapter-4.md'
+import chapter5Content from '../content/chapter-5.md'
+import chapter6Content from '../content/chapter-6.md'
+import chapter7Content from '../content/chapter-7.md'
+import chapter8Content from '../content/chapter-8.md'
+import chapter9Content from '../content/chapter-9.md'
+import chapter10Content from '../content/chapter-10.md'
+import chapter11Content from '../content/chapter-11.md'
+import chapter12Content from '../content/chapter-12.md'
+import chapter13Content from '../content/chapter-13.md'
+import chapter14Content from '../content/chapter-14.md'
 import bibliographyContent from '../content/bibliography.md'
 
 const app = document.querySelector('#app')
@@ -13,7 +24,18 @@ const pageTitles = {
   home: 'History of Interaction Design',
   'chapter-1': 'Chapter 1: Introduction',
   'chapter-2': 'Chapter 2: Interaction Design Before Computers',
-  'chapter-3': 'Chapter 3',
+  'chapter-3': 'Chapter 3: Early Computation',
+  'chapter-4': 'Chapter 4: Formation of Digital Computing and Information Theory',
+  'chapter-5': 'Chapter 5: Computers Communicate to Humans and Each Other',
+  'chapter-6': 'Chapter 6: The Rise of Interactive Computing',
+  'chapter-7': 'Chapter 7: The Battle of WIMPs',
+  'chapter-8': 'Chapter 8: Artificial Intelligence and Interaction Design',
+  'chapter-9': 'Chapter 9: Modile Interaction Design',
+  'chapter-10': 'Chapter 10: Interaction Design for Games',
+  'chapter-11': 'Chapter 11: Interaction Design for Social Connection',
+  'chapter-12': 'Chapter 12: Interaction Design for Multimedia and Constructed Realities',
+  'chapter-13': 'Chapter 13: Interaction Design for Control Systems',
+  'chapter-14': 'Chapter 14: Interaction Design for Embodied and Spacial Experiences',
   bibliography: 'Bibliography'
 }
 
@@ -22,6 +44,17 @@ const pageContentMap = {
   'chapter-1': chapter1Content,
   'chapter-2': chapter2Content,
   'chapter-3': chapter3Content,
+  'chapter-4': chapter4Content,
+  'chapter-5': chapter5Content,
+  'chapter-6': chapter6Content,
+  'chapter-7': chapter7Content,
+  'chapter-8': chapter8Content,
+  'chapter-9': chapter9Content,
+  'chapter-10': chapter10Content,
+  'chapter-11': chapter11Content,
+  'chapter-12': chapter12Content,
+  'chapter-13': chapter13Content,
+  'chapter-14': chapter14Content,
   bibliography: bibliographyContent
 }
 
@@ -33,7 +66,18 @@ const directLinks = [
 const chapterLinks = [
   { href: basePath+'chapter-1.html', key: 'chapter-1', label: 'Chapter 1' },
   { href: basePath+'chapter-2.html', key: 'chapter-2', label: 'Chapter 2' },
-  { href: basePath+'chapter-3.html', key: 'chapter-3', label: 'Chapter 3' }
+  { href: basePath+'chapter-3.html', key: 'chapter-3', label: 'Chapter 3' },
+  { href: basePath+'chapter-4.html', key: 'chapter-4', label: 'Chapter 4' },
+  { href: basePath+'chapter-5.html', key: 'chapter-5', label: 'Chapter 5' },
+  { href: basePath+'chapter-6.html', key: 'chapter-6', label: 'Chapter 6' },
+  { href: basePath+'chapter-7.html', key: 'chapter-7', label: 'Chapter 7' },
+  { href: basePath+'chapter-8.html', key: 'chapter-8', label: 'Chapter 8' },
+  { href: basePath+'chapter-9.html', key: 'chapter-9', label: 'Chapter 9' },
+  { href: basePath+'chapter-10.html', key: 'chapter-10', label: 'Chapter 10' },
+  { href: basePath+'chapter-11.html', key: 'chapter-11', label: 'Chapter 11' },
+  { href: basePath+'chapter-12.html', key: 'chapter-12', label: 'Chapter 12' },
+  { href: basePath+'chapter-13.html', key: 'chapter-13', label: 'Chapter 13' },
+  { href: basePath+'chapter-14.html', key: 'chapter-14', label: 'Chapter 14' },
 ]
 
 const linkMarkup = (link) => {
